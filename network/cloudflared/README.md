@@ -4,7 +4,11 @@
 
 ## Description
 
-Network traffic between a pc in a home LAN, a home router, cloudflare and a server in the same home LAN, the capture is stored in `challenge.pcap`. The traffic is captured on the server and contains the configuration needed to make the service accessible to a client outside the home LAN. The network diagram is stored [here](./images/network.jpg)
+I started self-hosting some of my web projects on my old PC,
+each with a different domain name.
+I asked a friend what he thought about that,
+and he said he could only see one.
+Can you guess which one it is?
 
 ## Solution
 

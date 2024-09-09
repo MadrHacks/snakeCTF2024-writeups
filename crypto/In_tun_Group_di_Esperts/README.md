@@ -28,8 +28,8 @@ The vulnerability is given by a common padding oracle. With respect to the well-
 
 What happens is that it is possible to decrypt the considered block by considering the output from the padding oracle with:
 
-- the original initialization vectors while decrypting the first block
-- the previous plaintext and ciphertext block as initialization vectors for subsequent blocks.
+- The original initialisation vectors while decrypting the first block
+- the previous plaintext and ciphertext block as initialisation vectors for subsequent blocks.
 
 Starting from the first block, one plaintext block per step can be correctly decrypted.
 It means that at the beginning $IV$, $IV_2$ and $C_0$ must be used to find $P_0$.

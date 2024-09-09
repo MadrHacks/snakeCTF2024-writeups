@@ -52,7 +52,7 @@ Now having a look at the map: ![map](images/map.png)
 
 It's possible to exclude other lottos and find the target's house.
 
-1. From the photos it's possible to see that the house is near a portion of street that is very similar to the borders of Canal Corner with the grey sidewalk and the street with the yellow line.
+1. From the photos it's possible to see that the house is near a portion of street that is very similar to the borders of Canal Corner with the grey pavement and the street with the yellow line.
 2. It's possible to tell from the map of the free lottos that the house is or in Canal Corner or in Sprucewood Square (the only two lottos that are buildable).
 
 Now, the only thing left is to find the exact position of the house.

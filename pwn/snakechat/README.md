@@ -8,7 +8,7 @@
 
 ## Solution
 
-snakechat is a simple chat application built on top of a custom protocol with a Python server and a C client. The target of the challenge is to exfiltrate the flag from an `admin` bot by gaining code execution in the C client without having direct access to it.
+snakechat is a simple chat application built on top of a custom protocol with a Python server and a C client. The target of the challenge is to exfiltrate the flag from a `admin` bot by gaining code execution in the C client without having direct access to it.
 
 ### Protocol
 
@@ -38,7 +38,7 @@ Of course no trivial leaks are possible due to the lack of any kind of output fr
 
 The only operations the bot performs are sending `Hello @username` when a user joins and `Bye username` when a user leaves after a short delay, with other kinds of chat messages being sent to `/dev/null`. Further analysis on the mention processing code leads to the `replace_mentions` function, which iterates over the connected clients (a linked list where each item is a pair composed of the username and the user id) and replaces each instance of a `@username` with the corresponding user id.
 
-If an attacker were to create a fake entry in the clients list with the right username and a user id set to arbitrary data, it would be possible to leak that data by getting the bot to mention that user. That would lead to a message containing "Hello %U" as text and the arbitrary data inside the arguments list.
+If an attacker were to create a fake entry in the list containing the references to the clients with the right username and a user id set to arbitrary data, it would be possible to leak that data by getting the bot to mention that user. That would lead to a message containing "Hello %U" as text and the arbitrary data inside the arguments' list.
 
 Looking at the related struct, that is
 

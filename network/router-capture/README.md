@@ -5,7 +5,7 @@
 ## Description
 
 We are developing a new router with military grade security.
-So, we have captured wifi and wan traffic from the router.
+So, we have captured Wi-Fi and wan traffic from the router.
 Try to break our encryption.
 
 ## Solution
@@ -17,12 +17,12 @@ The wan traffic is primarily composed of TLS packets, but a small percentage of 
 
 ## Analysis of the http packets
 
-By utilizing the display filter `http && !tls` in Wireshark, only the unencrypted http packets can be observed, totalling 76 packets.
+By utilising the display filter `http && !tls` in Wireshark, only the unencrypted http packets can be observed, totalling 76 packets.
 Therefore, the packets can be manually analysed.
 It can be observed that a TR-069 session exists between `10.255.255.35` and `10.24.34.7`.
 By analysing the packets, it becomes apparent that the ACS is sending a request to the CPE to change the Wi-Fi password, which is transmitted in plain text.
 
-## Utilizing the key
+## Utilising the key
 
 With the passkey, the WEP traffic in the Wi-Fi capture can be decrypted.
 It can be observed that the packets solely consist of SMTP and IMAP packets, suggesting that the flag may be present in one of the emails.

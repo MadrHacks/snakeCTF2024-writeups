@@ -4,7 +4,7 @@
 
 ## Description
 
-I tried to write my own trivia game b/c I was bored, now I'm considering to sell it!
+I tried to write my own trivia game b/c I was bored, now I'm considering selling it!
 
 ## Solution
 
@@ -25,8 +25,8 @@ At this point the most straightforward way to get the flag is to build a ROP cha
 Conveniently, there are some functions that provide some gadgets that can be
 directly used to build the chain:
 
-We have the following gadgets, that will allow us to write `/bin/sh` in memory
-and allow to execute a `execve` syscall:
+The following gadgets are available, and they allow writing `/bin/sh` in memory
+and with the goal of executing a `execve` syscall:
 
 ```python
 ADD_RBX_1_MUL_RBX_MOV_RBX_RAX = 0x4011ca # add rbx, 1; mul rbx; mov rbx, rax; ret;
@@ -70,7 +70,7 @@ The last step needed is loading `0x3b` in `rax` in order to perform a `execve`.
 If the binary is debugged in `gdb` it can be seen that after the execution of the
 chain until this point, `rax` contains the value `0x68732f6e291f3a`, so by
 sending `0x68732f6e291f3a ^ (0x3b + 1)` as a payload (+1 because the gadget
-contains `sub rax 1`) we get the value we want in `rax`. With
+contains `sub rax 1`) it is possible to store the correct value in `rax`. With
 `POP_RDI_POP_RSI_POP_RDX` the registers used to store the arguments can be modified, and finally with
 `SYSCALL` a shell gets spawned. The complete chain looks like:
 

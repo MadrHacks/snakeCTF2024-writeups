@@ -4,7 +4,7 @@
 
 ## Description
 
-I really, really, really want to read the $FLAG but why is it so stressful?
+I really, really, really want to read the $FLAG, but why is it so stressful?
 
 ## Solution
 
@@ -12,7 +12,7 @@ This challenge builds upon ["Stressful reader"](https://github.com/MadrHacks/sna
 
 As in "Stressful reader", the set of characters and keywords that can be used is extremely limited, and `lambda` functions are the way to go to bypass the blacklist. The difference with the previous version of the challenge is that object variables that allow to write `FLAG` easily are not available any more, so a different way to solve the challenge has to be found.
 
-It can be seen that in the `get_var` function, the parameter `varname` is capitalized before being given to `os.getenv`:
+It can be seen that in the `get_var` function, the parameter `varname` is capitalised before being given to `os.getenv`:
 
 ```python
 def get_var(self, varname):

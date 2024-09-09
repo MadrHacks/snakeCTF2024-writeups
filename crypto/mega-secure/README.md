@@ -80,7 +80,7 @@ if __name__ == "__main__":
     q += 1
     assert (isPrime(q))
 
-    # now with q we can compute d and sign the message
+    # now with q, d can be computed and the message signed
     p = n // q
     d = pow(e, -1, (p - 1) * (q - 1))
 

@@ -4,7 +4,7 @@
 
 ## Description
 
-I can't stand that the bad guy has done it again. It's impossible, how a person with ZERO talent came out with a contract with a label? aAAAAAAAAAaaaa I have to do something, his music is poo-poo and I'm here, I'm ducking ducking here (semicit). I've never been so angry!!!!!
+I can't stand that the bad guy has done it again. It's impossible, how a person with ZERO talent came out with a contract with a label? aAAAAAAAAAaaaa I have to do something, his music is poo-poo, and I'm here, I'm ducking ducking here (semicit). I've never been so angry!!!!!
 
 Ah yes, you may wanna solve Young Wannabe First :D
 
@@ -22,7 +22,7 @@ Why it's suggested to solve Young Wannabe first? Because the bad guy is "Bepi Fr
 
 It's possible to deduce that he is the bad guy from his LinkedIn posts. Also, in one of them, he suggests contacting him via email.
 
-Linked to the profile of Bepi Frico, we can see the mail:
+Linked to the profile of Bepi Frico, the email address can be found:
 
 > bepifrico@gmail.com
 
@@ -53,7 +53,7 @@ The mail is signed by Vip. Nyx.
 Who is Vip. Nyx.?
 A quick look on one of the biggest music streaming services available (SoundCloud) clarifies the doubts.
 
-We look for Vip. Nyx. on SoundCloud and we find his profile:
+If one looks for Vip. Nyx. on SoundCloud, his profile comes up:
 
 ![sc bepi](images/soundcloud_bepi.png)
 
@@ -72,6 +72,6 @@ More specifically, the flag is made of the initials characters in the songs titl
 
 > weddingcakeskibidisnake
 
-we then add `snakeCTF{}` to get the flag:
+It suffices to add `snakeCTF{}` to get the flag:
 
 > snakeCTF{weddingcakeskibidisnake}

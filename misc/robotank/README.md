@@ -4,7 +4,7 @@
 
 ## Description
 
-_RoboTank_ is back! And he's stronger then ever!
+_RoboTank_ is back! And he's stronger than ever!
 
 Last year only **one** team was able to pwn our favourite tank,
 but this year nobody, nobody will win!
@@ -59,7 +59,7 @@ The missing 8 bits can be exhaustively searched meaning that multiple primes $\t
 
 #### The Goldilock prime
 
-The Goldilock prime gives the possibility to speed up the computation of modular operation. In particular, performing the modulo operation with the Goldilock prime is equivalent to a series of shifting operation which are very efficient on hardware.
+The Goldilock prime gives the possibility to speed up the computation of modular operation. In particular, performing the modular operation with the Goldilock prime is equivalent to a series of shifting operations which are very efficient on hardware.
 
 Let $\delta$ be s.t. $\delta = 2^{64} - 2^{32} +1$.
 
@@ -69,7 +69,7 @@ $2^{2k} \equiv 2^k -1 \mod{\delta}$
 
 $2^{3k} \equiv -1 \mod{\delta}$
 
-Hence, if a number $x$ is represented by $4k$ bits (where $k = 32$ in our setting), it can be easily reduced modulo $\delta$ by splitting $x$ in its $LSB$ (the least significant bits), $ISB$ (the intermediary significant bits), $MSB$ (the most significant bits).
+Hence, if a number $x$ is represented by $4k$ bits (where $k = 32$ in this setting), it can be easily reduced modulo $\delta$ by splitting $x$ in its $LSB$ (the least significant bits), $ISB$ (the intermediary significant bits), $MSB$ (the most significant bits).
 
 $x = x_{LSB} + 2^{2k}x_{ISB} + 2^{3k}x_{MSB} \mod{\delta} = x_{LSB} + (2^k-1)x_{ISB} - x_{MSB} \mod{\delta}$
 

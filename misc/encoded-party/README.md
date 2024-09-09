@@ -4,8 +4,8 @@
 
 ## Description
 
-Traffic exchanged via USB, first from a keyboard and then from a DJ console, is captured and stored in `party_info.pcap` \
-The goal is to get the flag written using the DJ console, according to the dictionary written by the keyboard.
+A boring promoter stopped me while I was walking to sell me a ticket for a party. He said it was going to be crazy... but I don't know if I should trust him!\
+Can you tell me who's playing?
 
 ## Solution
 
