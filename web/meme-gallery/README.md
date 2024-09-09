@@ -18,6 +18,7 @@ From the source it is clear that the application is a platform to share memes. M
 - There is an admin bot with the flag in the cookies
 
 It's possible to register an account and upload some pictures:
+
 ![An example uploaded meme](./images/examplememe.jpg)
 
 When trying to submit the image to the admin, an error occurs: `I'm not interested in this naive memes`. The reason for this error is clearly stated in the code:
