@@ -25,7 +25,7 @@ with open(f"{output_dir}/challenge.txt", "r") as f:
     t2_6 = eval(f.readline()[4:])
 
     flag = b""
-    # con 5 round
+    # with 5 round
     c = bytes.fromhex(c5)
     t1 = [bytes.fromhex(el) for el in t1_5]
     t2 = [bytes.fromhex(el) for el in t2_5]
@@ -39,7 +39,7 @@ with open(f"{output_dir}/challenge.txt", "r") as f:
 
     flag += p2
 
-    # con 6 round
+    # with 6 round
     c = bytes.fromhex(c6)
     t1 = [bytes.fromhex(el) for el in t1_6]
     t2 = [bytes.fromhex(el) for el in t2_6]
