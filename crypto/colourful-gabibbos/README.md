@@ -8,11 +8,10 @@ I managed to get my hands on two secret images from the Gabibbos, but they're en
 
 The first one was straightforward, it turned out to be a photo of a well-known member, but the second one is a bit more difficult.
 
-
 ## Solution
 
 The encryption is done by creating a map for each colour in the image and then encrypting the image by applying the map to each pixel.
-Using the provided plaintext-ciphertext pair, the map used to encrypt the images can be recovered. 
+Using the provided plaintext-ciphertext pair, the map used to encrypt the images can be recovered.
 
 Since the map is generated using the `random` python module,
 the internal state of the random generator is recoverable
@@ -92,10 +91,3 @@ if __name__ == '__main__':
     dir = sys.argv[1]
     main()
 ```
-
-    
-
-
-
-
-
