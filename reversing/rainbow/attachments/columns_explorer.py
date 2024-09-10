@@ -15,7 +15,7 @@ def read_matrix_from_file(filename):
         print(width, height, steps)
         return matrix, steps
 
-matrix, steps = read_matrix_from_file('../challenge/circuit')
+matrix, steps = read_matrix_from_file('./challenge/circuit')
 
 c = 1
 

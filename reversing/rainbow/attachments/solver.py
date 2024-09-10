@@ -56,7 +56,7 @@ def parse_file(c):
     return m
 
 
-dir = '../challenge'
+dir = './challenge'
 
 with open(f"{dir}/circuit", "rb") as f:
     flag = reconstruct_flag(extract_blocks(parse_file(f)))

@@ -61,7 +61,7 @@ def parse_file(c):
     return h//75, w//40, extract_blocks(m)
 
 
-dir = '../challenge'
+dir = './challenge'
 
 with open(f"{dir}/circuit", "rb") as f:
     h, w, blocks = (parse_file(f))
