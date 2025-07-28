@@ -2,7 +2,7 @@
 
 **Category**: crypto
 
-## Challenge Description
+## Description
 
 I managed to get my hands on two secret images from the Gabibbos, but they're encrypted. Can you help me decrypt them?
 
