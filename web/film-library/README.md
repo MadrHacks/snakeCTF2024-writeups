@@ -1,5 +1,6 @@
 # Film Library [_snakeCTF 2024 Quals_]
 
+**Author**: peszr
 **Category**: web
 
 ## Description

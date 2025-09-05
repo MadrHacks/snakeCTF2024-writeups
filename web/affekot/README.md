@@ -1,6 +1,7 @@
 # Affekot [_snakeCTF 2024 Quals_]
 
 **Category**: web
+**Author**: macedonga
 
 ## Description
 
