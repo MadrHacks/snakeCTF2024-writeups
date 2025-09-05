@@ -1,6 +1,7 @@
 # Eco Lifestyle [_snakeCTF 2024 Quals_]
 
 **Category**: OSINT
+**Author**: mrBymax
 
 ## Description
 
