@@ -1,6 +1,7 @@
 # ordinary-keyboard [_snakeCTF 2024 Quals_]
 
-**Category**: misc
+**Category**: misc\
+**Author**: jotone
 
 ## Description
 

@@ -1,6 +1,7 @@
 # router-capture [_snakeCTF 2024 Quals_]
 
-**Category**: network
+**Category**: network\
+**Author**: jotone
 
 ## Description
 
