@@ -1,6 +1,7 @@
 # TLN (Thread-Local Notes) [_snakeCTF 2024 Quals_]
 
 **Category**: pwn
+**Author**: c0mm4nd_
 
 ## Description
 
