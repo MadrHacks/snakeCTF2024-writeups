@@ -54,7 +54,7 @@ This exploit permits obtaining ~2 possibilities for each byte under control whic
 
 To learn something about differential cryptanalysis, these are some references:
 
-- [Linear and differential cryptanalysis on SPN-like ciphers](http://www.cs.bc.edu/~straubin/crypto2017/heys.pdf)
+- [Linear and differential cryptanalysis on SPN-like ciphers](https://cs.bc.edu/straubin/crypto2017/heys.pdf)
 - [Linear and differential cryptanalysis: general overview](https://summerschool-croatia.cs.ru.nl/2014/slides/Differential%20and%20Linear%20Cryptanalysis.pdf)
 
 ### Flag
